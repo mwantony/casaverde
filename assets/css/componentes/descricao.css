@@ -1,0 +1,12 @@
+.descricao {
+    width: calc(100%);
+    background-color: var(--branco);
+    margin: 2rem -1rem 2rem -1rem;
+    padding: 2rem 1rem 2rem 1rem;
+    display: block;
+    position: relative;
+}
+
+.descricao__titulo {
+    margin-bottom: 1rem;
+}

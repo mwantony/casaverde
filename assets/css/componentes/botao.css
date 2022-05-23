@@ -1,0 +1,41 @@
+.botao {
+    background-color: var(--amarelo);
+    text-align: center;
+    font-family: inherit;
+    font-weight: var(--peso-botao);
+    color: var(--branco);
+
+    width: 100%;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+
+    box-shadow: 10px 10px 30pxvar(--amarelo-transparente);
+    border: none;
+}
+
+.botao--alternativo {
+    color: var(--amarelo);
+     
+    background-color: unset;
+    box-shadow: none;
+
+    border: 1px solid var(--amarelo);
+}
+
+.outro-botao {
+    margin-top: 1rem;
+}
+
+.botao__descricao {
+    border: none;
+    color: #FFCB47;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 13pt;
+    background: transparent;
+}
+
+@media screen and (min-width: 650px){
+    .botao {
+        width: 200px;
+    }
+}

@@ -1,0 +1,22 @@
+.como-conseguir {
+    margin-bottom: 5.625rem;
+    z-index: 3;
+}
+
+@media screen and (min-width: 650px) {
+    .como-conseguir {
+        display: flex;
+        width: calc(100% - 10rem);
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    .como-conseguir {
+        display: block;
+        width: calc(100% -4rem);
+        margin: auto;
+    }
+}

@@ -1,0 +1,60 @@
+@import url(_variaveis.css);
+@import url(_reset.css);
+body {
+  background-position: center;
+  color: var(--cinza);
+  font-family: var(--familia-corpo);
+  font-size: var(--tamanho-corpo);
+  background: url(../../img/fundo-textura.png), url(../../img/fundo-linhas.png);
+}
+
+.container {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.titulo {
+  font-size: var(--tamanho-titulo);
+  margin-top: 1rem;
+}
+
+.titulo--destaque {
+  font-family: var(--familia-titulo-destaque);
+  color: var(--preto);
+  font-size: var(--tamanho-titulo-destaque);
+  font-weight: var(--peso-titulo-destaque);
+  display: block;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.alinhamento--esquerda {
+  text-align: left;
+}
+
+.alinhamento--meio {
+  text-align: center;
+}
+
+.texto {
+  line-height: 26px;
+}
+
+.titulo__desktop {
+    display: none;
+}
+@media screen and (min-width: 650px){
+    .titulo {
+        font-size: 22px;
+    }
+
+    .titulo__desktop {
+        display: block;
+        margin: auto;
+    }
+
+    .titulo__mobile {
+        display: none;
+    }
+}
+/*# sourceMappingURL=base.css.map */

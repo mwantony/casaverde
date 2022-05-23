@@ -1,0 +1,65 @@
+.chamada {
+    padding-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    background-image: url(../../assets/img/splash-header.svg);
+    background-position: top -4rem right;
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.chamada__texto {
+    width: 12.5rem;
+    z-index: 3;
+    margin-bottom: 1.55rem;
+}
+
+.chamada__titulo {
+    margin-top: -5rem;
+}
+
+.chamada__imagem {
+    position: absolute;
+    top: 1rem;
+    width: 250px;
+    z-index: 0;
+}
+
+.chamada__formulario {
+    position: relative;
+    z-index: 2;
+}
+
+@media screen and (min-width: 650px) {
+    .chamada {
+        margin-top: -5rem;
+        margin-left: 5%;
+        background-image: url(../img/splash-desktop.png);
+        background-position: right -5rem;
+        background-size: 70%;
+        background-repeat: no-repeat;
+    }
+
+    .titulo--destaque {
+        font-size: 82px;
+        z-index: 3;
+    }
+
+    .chamada__texto {
+        width: 500px;
+        text-align: justify;
+        z-index: 3;
+    }
+
+    .chamada__imagem {
+        width: 450px;
+        top: -1.3rem;
+        right: 20%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .chamada__imagem {
+        right: 1%;
+    }
+}

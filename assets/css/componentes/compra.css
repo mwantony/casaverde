@@ -1,0 +1,5 @@
+.compra__imagem {
+    display: inline-block;
+    width: 60%;
+    overflow: hidden;
+}
